@@ -1,9 +1,7 @@
 # python-web-crawler
 
 
-<img src="https://img.shields.io/badge/Python-3.6.1-brightgreen.svg"/>
-<img src="https://img.shields.io/badge/BeautifulSoup-4.0-green.svg"/>
-<img src="https://img.shields.io/travis/USER/REPO.svg"/>
+<img src="https://img.shields.io/badge/Python-3.6.1-brightgreen.svg"/><img src="https://img.shields.io/badge/BeautifulSoup-4.0-green.svg"/><img src="https://img.shields.io/badge/build-pass-brightgreen.svg"/>
 
 ## Tip:
 
