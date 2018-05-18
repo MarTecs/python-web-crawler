@@ -21,7 +21,12 @@ from bs4 import BeautifulSoup
 
 html = urlopen("file:///E:/www.pythonscraping.com.html")
 bsObj = BeautifulSoup(html, "lxml")
-nameList = bsObj.findAll("span", {"class" : "green"}, False)           ##这个是使用了Python的字典
+nameList = bsObj.findAll("span", {"class" : "green"})           ##这个是使用了Python的字典
 for name in nameList:
     print(name.get_text())
 
+##nameList2 = bsObj.findAll(class="green")  这里因为class在Python是关键字，所以如果这样写就会报错，因此我们在写的时候应该写成如下两种代码
+nameList2 = bsObj.findAll(class_="green")
+nameList3 = bsObj.findAll("", { "class" : "green" })
+print(nameList2)
+print(nameList3)
